@@ -1,0 +1,307 @@
+*
+{
+	
+	margin:0;
+	padding:0;
+}
+.row
+{
+	max-width: 1140px;
+	margin:0 auto;
+}
+
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	
+}
+
+
+
+.hero
+{
+	position:absolute;
+	width:1140px;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+}
+
+
+
+header{
+	
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(assets/racebike.jpg);
+	width:100%;
+	height: 100%;
+	background-position: center;
+	background-size:cover;
+	background-attachment: fixed;
+	
+}
+
+
+h1{
+	color: #FFFFFF;
+}
+
+.logo img
+{
+	height: 100px;
+	float: left;
+	margin-top: 30px;
+}
+
+.main-nav
+{
+	list-style: none;
+	float: right;
+	margin-top: 10px;
+}
+.main-nav li
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.main-nav li a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 90%;
+	font-weight: bold; 
+}
+
+.main-nav li a:hover
+{
+	color: #40E0D0;
+	border-bottom: 2px solid #40E0D0;
+	transition: all 0.5 ease-in;
+	padding: 15px 0;
+}
+
+.btn
+{
+	border: 1px solid #40E0D0;
+	padding: 10px 30px;
+	color: #40E0D0;
+	text-decoration: none;
+	border-radius: 12px;
+	margin-right: 25px;
+}
+
+.button-awesome
+{
+	margin-top: 40px;
+}
+
+.btn-half
+{
+	background-color: #40E0D0;
+	color: #FFFFFF;
+}
+
+.btn-full:hover
+{
+	background-color: #40E0D0;
+	color: #FFFFFF;
+	transition: all 0.5 ease-in;
+}
+h3:after
+{
+	position:absolute;
+	width:100px;
+	height:2px;
+	background-color: #40E0D0;
+	display:block;
+	content:" ";
+	margin:@ auto;
+	margin-top:30px;
+	
+}
+
+.features h3
+{
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+.copy
+{
+	width:70%;
+	margin-left: 25%;
+	
+}
+
+.arranging
+{
+	text-align: justify;
+	
+}
+
+.features i
+{
+	font-size: 40px;
+	color: #40E0D0;
+	margin-left: 25%;
+}
+
+.features h4
+{
+	font-size: 40px;
+	color: #40E0D0;
+	margin-left: 40px;
+}
+
+.bike-showcase
+{
+	list-style: none;
+	width: 100%;
+	
+	
+}
+
+.bike-showcase li
+{
+	display: block;
+	width: 25%;
+	float: left;
+}
+
+.bike-photo 
+{
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+
+.bike-photo img
+{
+	width: 100%;
+	margin: auto;
+	transform: scale(1:15);
+	transition: all 0.5s ease-in;
+}
+
+.bike-photo img:hover
+{
+	transform: scale(1:05);
+	transition: all 0.5s ease-in;
+}
+
+.bike
+{
+	margin-left: 60px;
+}	
+
+.pic img
+{
+	width:40%;
+	margin-left: 50%;
+	margin-top: 50px;					
+}
+
+.works-step
+{
+	margin-top: 50px;
+}
+
+.works-step div
+{
+	border:1px solid #40E0D0;
+	display: inline-block;
+	border-radius:50%;
+	width:50px;
+	height:50px;
+	text-align: center;
+	line-height: 50px;
+	
+}
+
+.works-step img
+{
+	
+	height:40px;
+	margin-top: 20px;
+	margin-right: 20px;
+	
+}
+
+.clearfix
+{
+	zoom: 1;
+}
+
+.clearfix: after
+{
+	visibility: hidden;
+	content: " ";
+	height:0;
+	display:block;
+	clear:both;
+}
+
+.mobile
+{
+	margin-top: 60px;
+}
+
+.cities
+{
+	margin-top: 100px;
+	
+}
+
+.cities map
+{
+	width:100%;
+	margin-top: 50px;
+	
+}
+
+.testimonials 
+{
+	margin-top: 80px;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(assets/cyclist.jpg);
+	background-position: center;
+	background-size:cover;
+	background-attachment: fixed;
+	padding-top:80px;
+	padding-bottom:80px;
+	color: #FFFFFF;
+}	
+
+.testimonials cite img
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right:10px;
+}	
+
+
+.testimonials p
+{
+	color: #FFFFFF;
+	line-height: 25px;
+	text-align: justify;
+	
+}	
+
+.btn-block
+{
+	background-color: #40E0D0;
+	color: #FFFFFF;
+	border-radius:6px;
+	margin-top:20px;
+}
+
+.gap
+{
+	margin-top: 40px;
+	
+}
+.form
+{
+	margin-top: 40px;
+	
+}
